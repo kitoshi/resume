@@ -1,0 +1,205 @@
+%-------------------------
+% Resume in Latex
+% Author : Kitoshi Charlton
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kitoshi Charlton} \\ \vspace{5pt}
+    \small 778-994-4959 $|$ \href{mailto:kitoshi.charlton@gmail.com}{\underline{kitoshi.charlton@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/robert-k-charlton/}{\underline{linkedin.com/in/robert-k-charlton/}} $|$
+    \href{https://github.com/kitoshi}{\underline{github.com/kitoshi}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {British Columbia Institute of Technology}{Vancouver, BC}
+      {Computer Information Technology Diploma}{Sep. 2021 -- Dec. 2023}
+    \resumeSubheading
+      {University of Western Ontario}{London, ON}
+      {Bachelor's of Earth and Planetary Sciences}{Sep. 2009 -- May 2014}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Application Developer}{Jan. 2023 -- Present}
+  {Insurance Council of British Columbia (ICBC)}{North Vancouver (Hybrid), BC}
+  \resumeItemListStart
+    \resumeItem{Coordinated, designed, and coded changes in production applications to improve business processes and client experience}
+    \resumeItem{Planned, coded, executed, and tested software changes to migrate legacy business systems and data to cutting edge to enable the organization's ability to adapt to evolving business needs}
+    \resumeItem{Collaborated with team members and project stakeholders to make informed design decisions, improve code quality through review, and share knowledge to foster a culture of continuous learning and growth}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Full-stack Software Engineer Intern}{May 2022 -- Sep. 2022}
+  {AAVE}{Vancouver (Remote), BC}
+  \resumeItemListStart
+    \resumeItem{Designed, coded, and managed features for iOS application built in react-native to provide usable, working code for each agile cycle}
+    \resumeItem{Reviewed merge requests from other developers to give approval, provide improvements, and expose edge cases}
+    \resumeItem{Suggested architecture improvements to design principles of the application to maintain code readability and consistency}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Underwriter}{March 2016 -- March 2021}
+  {The Co-operators General Insurance Company}{Vancouver (Hybrid), BC}
+  \resumeItemListStart
+    \resumeItem{Managed focus groups for product fit, scheduled release dates, and implemented updates to improve client and employee resource coordination}
+    \resumeItem{Accurately placed and assessed risk based on selection guidelines to balance risk and profitability}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Google/ICBC AI Hackathon} $|$ \emph{Node.js, Express, SQLLite, Document AI, App Engine, Google Cloud}}{May 2023}
+          \resumeItemListStart
+            \resumeItem{Designed, coded, and implemented a full-stack web application to solve business requirements using AI}
+            \resumeItem{Implemented Google Cloud Platform's App Engine and Cloud Storage to make the application scale with users}
+            \resumeItem{Integrated Google's DocumentAI on unstructured data from PDFs and physical document images to parse into useful structured JSON data stored in a SQL database}
+            \resumeItem{Performed live tech demos to executives, technical managers, and business analysts from ICBC and Google to showcase technology use case}
+          \resumeItemListEnd
+              \resumeProjectHeading
+          {\textbf{Web Crawler/E-Commerce Application} $|$ \emph{React, Puppeteer, Cheerio, Node.js, Express, NoSQL}}{July 2021}
+          \resumeItemListStart
+            \resumeItem{Designed, coded, and implemented a full-stack web application to find price arbitrage opportunities between auction sites}
+            \resumeItem{Organizes crawled data into NoSQL database to allow filtering and analysis}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Typescript, Javascript, Java, Python, Gosu, SQL, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, Express, NextJS, Jutro} \\
+     \textbf{Developer Tools}{: Git, Docker, Google Cloud Platform, VS Code, Guidewire Studio, Jest, AWS, Fisheye, JIRA, Splunk} \\
+     \textbf{Fundamentals}{: Reading Documentation, Google-ing, Prompting, Restful API, GraphQL API, Object Oriented Programming, Functional Programming, Unit Testing, Integration Testing}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
